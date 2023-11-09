@@ -1,0 +1,224 @@
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #39b2a0, #ffffff);
+  color: rgba(1, 85, 141, 0.815);
+  text-align: center; 
+  padding: 20px; 
+}
+
+
+#main {
+  text-align: center;
+  background: linear-gradient(to bottom, #39b2a0, #ffffff);
+  padding: 60px;
+}
+
+#main img {
+  border-radius: 48%;
+  width: 150px;
+  height: 150px;
+}
+
+#main h1 {
+  font-size: 29px;
+  margin-bottom: 30px;
+  background: linear-gradient(to bottom, #038525a5, rgba(94, 143, 208, 0.762));
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+/* About Section */
+#about {
+  padding: 100px;
+  background: linear-gradient(to right, #39b2a0, #ffffff);
+}
+
+#about h2 {
+  font-size: 24px;
+}
+
+#about p {
+  font-size: 16px;
+}
+
+
+#skills {
+  padding: 50px;
+  background: linear-gradient(to left, #39b2a0, #ffffff);
+}
+
+#skills h2 {
+  font-size: 24px;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+ Skill Styles 
+ .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  margin: 10px 0;
+  text-align: left;
+  width: 300px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-level {
+  background-color: #ddddddf3;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.skill-level-bar {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(to right, #3ebaa7, #089344da);
+  transition: width 1s ease-in-out;
+} */
+#projects {
+  padding: 100px;
+  background: linear-gradient(to right, #39b2a0, #ffffff);
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 30px;
+}
+
+.card-img-top {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: center;
+}
+
+.card-title, .card-text {
+  text-align: center;
+}
+
+.card .btn-primary {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Contact Section */
+#contact {
+  padding: 40px;
+  background: linear-gradient(to bottom, #39b2a0, #ffffff);
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  background: linear-gradient(to top, #98c8e8, #ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; /* Adjusted padding value */
+  background: linear-gradient(to bottom, #39b2a0, #ffffff);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #150404;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to top, #1285d29d, rgba(12, 153, 73, 0.823));
+  color: rgb(174, 248, 178);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 42px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #786b6b;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #5196df; 
+}
+
+
+.social-media a i.fa-instagram {
+  color: #E4405F; 
+}
+
+.social-media a i.fa-whatsapp {
+  color: #25D366; 
+}
+
+.social-media a i.fa-linkedin {
+  color: #0A66C2; 
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ 
+}
